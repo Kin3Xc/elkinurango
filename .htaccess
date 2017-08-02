@@ -4,7 +4,7 @@ RewriteCond %{HTTP_HOST} ^elkinurango\.co [NC]
 RewriteRule ^(.*)$ http://www.elkinurango.co/$1 [L,R=301,NC]
 
 # Redirigir todo un sitio web
-Redirect 301 / http://elkinurango.co/
+Redirect 301 / http://www.elkinurango.co/
 
 #Impedir el acceso a los archivos y directorios ocultos
 RewriteCond %{SCRIPT_FILENAME} -d [OR]
