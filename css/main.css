@@ -20,3 +20,4 @@ header img:hover{filter:grayscale(80%);}
 .social div{padding:10px;}
 .social a{text-decoration:none;font-size:20px;}
 .social a i:hover{color:#34495e;}
+.error{font-size: 34px;color: #999999;margin-top: 30px;}
