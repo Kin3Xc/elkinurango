@@ -1,25 +1,140 @@
-@font-face{font-family:'icomoon';src:url('/fonts/icomoon.eot?q6xocr');src:url('/fonts/icomoon.eot?q6xocr#iefix') format('embedded-opentype'),
-url('/fonts/icomoon.ttf?q6xocr') format('truetype'),
-url('/fonts/icomoon.woff?q6xocr') format('woff'),
-url('/fonts/icomoon.svg?q6xocr#icomoon') format('svg');font-weight:normal;font-style:normal;}
-[class^="icon-"], [class*=" icon-"]{font-family:'icomoon' !important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
-.icon-medium:before {content: "\e901";}
-.icon-brand:before{content:"\e900";}
-.icon-facebook:before{content:"\ea90";}
-.icon-instagram:before{content:"\ea92";}
-.icon-twitter:before{content:"\ea96";}
-*,html{padding:0;margin:0;color:#999999;}
-.container{display:flex;flex-direction:column;justify-content:center;align-items:center;font-family:'Roboto', sans-serif;padding-bottom:40px;letter-spacing: 4px;}
-header{background-color:#ecf0f1;width:100%;height: 50vh; text-align:center;/* padding-top:46px */}
-header h1{text-align: center; font-size:22px;width:100%; margin:0px auto;margin-top:80px;position: absolute;}
-header img{width:140px;height:140px;border-radius:50%;position:relative;top:39vh;border:2px #fff solid;}
-header img:hover{filter:grayscale(80%);}
-.perfil{margin-top:84px;text-align:center;}
-.perfil h2{font-size:38px;}
-.perfil p{font-size:16px;margin-top: 10px;}
-.social{display:flex;flex-direction:row;margin-top:10px;}
-.social div{padding:10px;}
-.social a{text-decoration:none;font-size:22px;}
-.social a i:hover{color:#34495e;}
-.error{font-size: 34px;color: #d35400;margin-top: 30px;}
-@media only screen and (max-width:320px){header h1{margin-top:10px;}}
+@font-face {
+    font-family: 'icomoon';
+    src: url('/fonts/icomoon.eot?q6xocr');
+    src: url('/fonts/icomoon.eot?q6xocr#iefix') format('embedded-opentype'), url('/fonts/icomoon.ttf?q6xocr') format('truetype'), url('/fonts/icomoon.woff?q6xocr') format('woff'), url('/fonts/icomoon.svg?q6xocr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-medium:before {
+    content: "\e901";
+}
+
+.icon-brand:before {
+    content: "\e900";
+}
+
+.icon-facebook:before {
+    content: "\ea90";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+html, body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  grid-template-columns: minmax(300px, 5fr) 16fr;
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile{
+	width: 100%;
+	height: 100vh;
+	padding: 0 2px 0;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	background-color: #fbc531;
+	color: #353b48;
+}
+
+
+.profile h3 {
+    font-size: 22px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #2f3640;
+}
+
+.profile img {
+    border-radius: 50%;
+    border: 2px #fff solid;
+}
+
+.profile img:hover {
+    filter: grayscale(80%);
+}
+
+.bio {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.bio h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #2f3640;
+}
+
+.bio h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #2f3640;
+}
+
+.bio p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.social {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* margin-top: 10px; */
+}
+
+.social div {
+    padding: 10px;
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #353b48;
+}
+
+.social a i:hover {
+    color: #34495e;
+}
+
+.error {
+    font-size: 34px;
+    color: #d35400;
+    margin-top: 30px;
+}
+
+
+.content{
+	padding:0 18px 0;
+}
+
+@media only screen and (max-width:320px) {
+    header h1 {
+        margin-top: 10px;
+    }
+}
