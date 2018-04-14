@@ -1,0 +1,301 @@
+{
+	"person": {
+		"id": 400,
+		"publicId": "kin3xc",
+		"name": "Elkin Urango",
+		"email": "kin3xc@hotmail.com",
+		"showEmail": true,
+		"professionalHeadline": "Full Stack Web Developer",
+		"location": "Bogotá, Colombia",
+		"summaryOfBio": "Programmer with experience developing web applications using client and server technologies. Analytical skills and problem solving, and absolute dedication to achieve and maintain high levels of quality. I also count on skills to interact at all levels and work under pressure.",
+		"picture": "https://starrgate.s3.amazonaws.com:443/users/736438d094df0f6d6419985a37fd8f9edb0d8e49/profile_9UNUSZk.jpg",
+		"theme": "orange800",
+		"phone": "+573057750307",
+		"weight": 0,
+		"itemsVerified": 0,
+		"recommendations": 0,
+		"completion": 0.5556,
+		"verified": false,
+		"claimant": true,
+		"featureDiscovery": false,
+		"canary": false,
+		"media": [],
+		"links": [
+			{
+				"id": 821,
+				"name": "linkedin",
+				"address": "https://www.linkedin.com/in/elkinurango"
+			},
+			{
+				"id": 822,
+				"name": "github",
+				"address": "https://github.com/Kin3Xc"
+			},
+			{
+				"id": 823,
+				"name": "twitter",
+				"address": "https://twitter.com/Kin3Xc"
+			},
+			{
+				"id": 826,
+				"name": "",
+				"address": "http://www.elkinurango.co"
+			},
+			{
+				"id": 827,
+				"name": "facebook",
+				"address": "https://facebook.com/kin3xc"
+			},
+			{
+				"id": 828,
+				"name": "instagram",
+				"address": "https://instagram.com/kin3xc"
+			}
+		]
+	},
+
+	"stats": {
+		"jobs": 5,
+		"education": 1
+	},
+	"achievements": [],
+	
+	"strengths": [],
+
+	"jobs": [ 
+		{
+		"id": 13646,
+		"category": "jobs",
+		"role": "Senior Frontend Developer",
+		"organizations": [
+			{
+				"id": 7508,
+				"name": "Search Rebel LLC"
+			}
+		],
+		"fromMonth": "March",
+		"fromYear": "2018",
+		"toMonth": "",
+		"toYear": "",
+		"additionalInfo": "",
+		"weight": 0,
+		"verifications": 0,
+		"recommendations": 0,
+		"media": [
+			{
+				"group": "98d68702-7b13-4f97-bd45-a5b905cd79cd",
+				"mediaType": "link",
+				"description": "",
+				"mediaItems": [
+					{
+					"id": 2368,
+					"address": "http://searchrebel.com"
+					}
+				]
+			}
+		]
+	},
+		{
+		"id": 3076,
+		"category": "jobs",
+		"role": "Web Developer & Mobile Apps",
+		"organizations": [
+			{
+				"id": 1355,
+				"name": "Conseltek"
+			}
+		],
+		"fromMonth": "July",
+		"fromYear": "2016",
+		"toMonth": "June",
+		"toYear": "2017",
+		"additionalInfo": "Completed tasks: Development and implementation of web and mobile applications\r\n\r\naccording to the requirements of the business, creation of Back Office, CRM for clients. Technologies used: Ionic / Cordova, Firebase, Nodejs, MongoDB, PHP, Mysql,\r\nCodeigniter, Slim Framework, HTML, CSS3, Jquery, GitHub, among others.",
+		"weight": 0,
+		"verifications": 0,
+		"recommendations": 0,
+		"media": [
+			{
+				"group": "ab193fd3-b7e8-482c-9f8c-a0a70e2f9566",
+				"mediaType": "link",
+				"description": "",
+				"mediaItems": [
+					{
+					"id": 1469,
+					"address": "http://www.conseltek.com"
+					}
+				]
+			},
+			{
+				"group": "880c44dc-ad3a-443c-a040-96e19370d302",
+				"mediaType": "media",
+				"description": "Conseltek",
+				"mediaItems": [
+					{
+					"id": 1470,
+					"address": "https://bio-media.s3-us-west-2.amazonaws.com/people/400/880c44dc-ad3a-443c-a040-96e19370d302/1200dad0-add4-4899-be99-3348495db518.png",
+					"metadata": "{\"width\":1240,\"height\":407,\"focalPointX\":0.5,\"focalPointY\":0.5}"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 3077,
+		"category": "jobs",
+		"role": "Senior Developer",
+		"organizations": [
+			{
+				"id": 1356,
+				"name": "Leon Agencies"
+			}
+		],
+		"fromMonth": "February",
+		"fromYear": "2016",
+		"toMonth": "May",
+		"toYear": "2017",
+		"additionalInfo": "Completed tasks: Responsible for the development of various projects both web\r\n\r\nand mobile agency, was also involved contributing ideas in design and application\r\narchitecture in its initial stage of design and requirements analysis.",
+		"weight": 0,
+		"verifications": 0,
+		"recommendations": 0,
+		"media": [
+			{
+				"group": "4aace2b3-9e1a-4115-ac96-29c4ea67285d",
+				"mediaType": "link",
+				"description": "",
+				"mediaItems": [
+					{
+						"id": 1467,
+						"address": "http://leonagencies.com"
+					}
+				]
+			},
+			{
+				"group": "bb88c654-f74e-4005-a5e3-3fa50df12232",
+				"mediaType": "media",
+				"description": "Leon Agencies",
+				"mediaItems": [
+					{
+						"id": 1468,
+						"address": "https://bio-media.s3-us-west-2.amazonaws.com/people/400/bb88c654-f74e-4005-a5e3-3fa50df12232/11532734-5e82-4836-9df6-477bc7fa189f.png",
+						"metadata": "{\"width\":1136,\"height\":393,\"focalPointX\":0.5,\"focalPointY\":0.5}"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 3079,
+		"category": "jobs",
+		"role": "Leader Development",
+		"organizations": [
+			{
+				"id": 1357,
+				"name": "Oglit"
+			}
+		],
+		"fromMonth": "April",
+		"fromYear": "2015",
+		"toMonth": "February",
+		"toYear": "2016",
+		"additionalInfo": "Completed tasks: Responsible for the development and implementation of web and\r\n\r\nmobile applications for both customers and themselves, it was a great challenge to work applications from start to finish, both the frontend and the backend.",
+		"weight": 0,
+		"verifications": 0,
+		"recommendations": 0,
+		"media": [
+			{
+				"group": "f7e11131-9f36-4c8c-a625-1f0c0012669f",
+				"mediaType": "media",
+				"description": "",
+				"mediaItems": [
+					{
+						"id":1234,
+						"address": "https://www.oglit.com"
+					},
+					{
+						"id": 1473,
+						"address": "https://bio-media.s3-us-west-2.amazonaws.com/people/400/f7e11131-9f36-4c8c-a625-1f0c0012669f/4e413b8a-7fe2-41ab-a200-67002b640db5.png",
+						"metadata": "{\"width\":1250,\"height\":598,\"focalPointX\":0.5,\"focalPointY\":0.5}"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 3078,
+		"category": "jobs",
+		"role": "Programmer, Support computer equipment",
+		"organizations": [
+			{
+				"id": 1358,
+				"name": "Datafactory Consulting And Services"
+			}
+		],
+		"fromMonth": "June",
+		"fromYear": "2011",
+		"toMonth": "March",
+		"toYear": "2015",
+		"additionalInfo": "Completed tasks: Develop web based applications and user requirements desktop\n\nconnection troubleshooting teams of employees and OS upgrade.",
+		"weight": 0,
+		"verifications": 0,
+		"recommendations": 0,
+		"media": [
+			{
+				"group": "9246f492-a7a2-46e4-a351-c83fa6f2a6a1",
+				"mediaType": "link",
+				"description": "",
+				"mediaItems": [
+					{
+						"id": 1474,
+						"address": "http://tpmdatafactory.com"
+					}
+				]
+			},
+			{
+				"group": "f44cfa7a-3c20-4390-8997-5bc92e10a11d",
+				"mediaType": "media",
+				"description": "",
+				"mediaItems": [
+					{
+						"id": 1475,
+						"address": "https://bio-media.s3-us-west-2.amazonaws.com/people/400/f44cfa7a-3c20-4390-8997-5bc92e10a11d/b4e664d4-d461-4a91-b7e6-1c88eda75190.png",
+						"metadata": "{\"width\":1274,\"height\":405,\"focalPointX\":0.5,\"focalPointY\":0.5}"
+					}
+				]
+			}
+		]
+	}
+	],
+	"projects": [],
+	"publications": [],
+	"education": [
+	{
+	"id": 3080,
+	"category": "education",
+	"name": "Systems Engineer",
+	"organizations": [
+	{
+	"id": 1372,
+	"name": "Universidad Incca de Colombia"
+	},
+	{
+	"id": 1375,
+	"name": "Universidad Abierta y a Distancia"
+	},
+	{
+	"id": 138,
+	"name": "Servicio Nacional de Aprendizaje - SENA "
+	}
+	],
+	"fromMonth": "",
+	"fromYear": "",
+	"toMonth": "",
+	"toYear": "2008",
+	"additionalInfo": "",
+	"weight": 0,
+	"verifications": 0,
+	"recommendations": 0,
+	"media": []
+	}
+	],
+	"interests": []
+}
