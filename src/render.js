@@ -11,7 +11,6 @@ export default class Render {
 
     // show list in web site
     render(data) {
-        console.log(data);
         let jobs = document.querySelector('.jobs');
         let bio = document.querySelector('.summary-bio');
 

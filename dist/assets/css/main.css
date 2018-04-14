@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('/assets/fonts/icomoon.eot?q6xocr');
+    src: url('/assets/fonts/icomoon.eot?q6xocr#iefix') format('embedded-opentype'), url('/assets/fonts/icomoon.ttf?q6xocr') format('truetype'), url('/assets/fonts/icomoon.woff?q6xocr') format('woff'), url('/assets/fonts/icomoon.svg?q6xocr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-medium:before {
+    content: "\e901";
+}
+
+.icon-brand:before {
+    content: "\e900";
+}
+
+.icon-facebook:before {
+    content: "\ea90";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+html, body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  grid-template-columns: minmax(300px, 7fr) 16fr;
+  font-family: 'Roboto', sans-serif;
+}
+h3 {
+    font-size: 22px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #272727;
+    text-align: center;
+}
+hr{
+	border: .4px #999 dashed;
+}
+
+.profile{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	padding: 0 2px 0;
+	text-align: center;
+	background-color: #fbc531;
+	color: #272727;
+}
+
+.profile img {
+	width: 120px;
+	height: 120px;
+    border-radius: 50%;
+    border: 2px #fff solid;
+    margin-top: 24px;
+}
+
+.profile img:hover {
+    filter: grayscale(80%);
+}
+
+.bio {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.bio h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.bio h2 {
+    font-size: 18px;
+    margin: 4px;
+}
+
+.bio p {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    letter-spacing: .6px;
+}
+
+.social {
+	height: 100%;
+	margin-top: 18px;
+
+}
+
+.social div {
+	display: inline-flex;
+    padding: 10px;
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #272727;
+}
+
+.social a i:hover {
+    color: #34495e;
+}
+
+.error {
+    font-size: 34px;
+    color: #d35400;
+    margin-top: 30px;
+}
+
+
+.content{
+	padding:0 22px 0;
+}
+.content h3{
+	text-align: left;
+}
+
+.jobs{
+    margin-top: 26px;
+}
+.jobs .job{
+    padding-bottom: 28px;
+}
+.jobs .job h2{
+    padding: 0;
+    margin: 0;
+}
+.jobs p {
+    padding: 0;
+    margin: 0;
+}
+.job a{
+    text-decoration: none;
+}
+@media only screen and (max-width:414px) {
+    body{
+        display: grid;
+        grid-template-columns: 98%;
+    }
+    header h1 {
+        margin-top: 10px;
+    }
+    .social {
+        height: 100%;
+        margin-top: 8px;
+
+    }
+    .content{
+        margin-top: 28px;
+    }
+    .content h3{
+    text-align: center;
+}
+}
