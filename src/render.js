@@ -22,7 +22,7 @@ export default class Render {
                     <h2>${ job.role }</h2>
                     <p>${ job.organizations[0].name }</p>
                     <p>From ${ job.fromMonth } ${ job.fromYear } to ${ job.toMonth || 'Present ' } ${ job.toYear }</p>
-                    <a href="">${ job.media[0].mediaItems[0].address }</a>
+                    <a href="${ job.media[0].mediaItems[0].address }">${ job.media[0].mediaItems[0].address }</a>
                 </div>
             `;
         })

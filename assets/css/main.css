@@ -157,6 +157,7 @@ hr{
 }
 .job a{
     text-decoration: none;
+    color: #f39c12;
 }
 @media only screen and (max-width:414px) {
     body{
